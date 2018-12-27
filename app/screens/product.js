@@ -11,7 +11,8 @@ export default class App extends Component {
         super();
         this.state = {
             product: {},
-            loading: true
+            loading: true,
+            page: 1
         }
     }
 
